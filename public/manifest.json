@@ -1,0 +1,10 @@
+{
+    "id": "plugin-proxy",
+    "name": "Plugin Proxy",
+    "description": "For visiting plugin market quickly.",
+    "version": "0.0.1",
+    "author": "binyu1231",
+    "authorUrl": "https://github.com/binyu1231/",
+    "isDesktopOnly": false,
+    "minAppVersion": "0.9.11"
+  }

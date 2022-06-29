@@ -1,0 +1,42 @@
+{
+  "currentProxy": "mirr",
+  "defaultProxy": "mirr",
+  "proxyList": [
+    {
+      "id": "mirr",
+      "download": "https://gh.gcdn.mirr.one/",
+      "raw": "https://raw-gh.gcdn.mirr.one/",
+      "page": "https://gh.gcdn.mirr.one/"
+    },
+    {
+      "id": "fastgit",
+      "download": "https://download.fastgit.org/",
+      "raw": "https://raw.fastgit.org/",
+      "page": "https://hub.fastgit.xyz/"
+    },
+    {
+      "id": "mtr",
+      "download": "https://download.fastgit.org/",
+      "raw": "https://raw-gh.gcdn.mirr.one/",
+      "page": "https://api.mtr.pub/"
+    },
+    {
+      "id": "gitclone",
+      "download": "https://download.fastgit.org/",
+      "raw": "https://raw.fastgit.org/",
+      "page": "https://gitclone.com/github.com/"
+    },
+    {
+      "id": "ghproxy",
+      "download": "https://mirror.ghproxy.com/https://github.com/",
+      "raw": "https://mirror.ghproxy.com/https://github.com/",
+      "page": "https://mirror.ghproxy.com/https://github.com/"
+    },
+    {
+      "id": "github",
+      "download": "https://github.com/",
+      "raw": "https://raw.githubusercontent.com/",
+      "page": "https://github.com/"
+    }
+  ]
+}
