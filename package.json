@@ -47,6 +47,10 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "electron": "^19.0.6",
+    "obsidian": "^0.15.3"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.1",
     "@antfu/ni": "^0.16.2",
@@ -61,9 +65,5 @@
     "unbuild": "^0.7.4",
     "vite": "^2.9.12",
     "vitest": "^0.15.1"
-  },
-  "dependencies": {
-    "electron": "^19.0.6",
-    "obsidian": "^0.15.3"
   }
 }

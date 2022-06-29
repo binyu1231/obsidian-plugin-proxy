@@ -1,6 +1,6 @@
-import { defineBuildConfig } from 'unbuild'
-import { copyFileSync, readdirSync, rename, renameSync } from 'fs'
+import { copyFileSync, readdirSync, renameSync } from 'fs'
 import { resolve } from 'path'
+import { defineBuildConfig } from 'unbuild'
 
 const obPluginDirectory = 'D:/ob/.obsidian/plugins/obsidian-plugin-proxy'
 
@@ -8,27 +8,26 @@ export default defineBuildConfig({
   entries: [
     {
       input: './src/main',
-      format: 'cjs'
+      format: 'cjs',
     },
     {
       builder: 'mkdist',
       input: './public',
-    }
+    },
   ],
   declaration: true,
   clean: true,
   externals: [
     'electron',
-    'obsidian'
+    'obsidian',
   ],
   rollup: {
     emitCJS: true,
   },
   hooks: {
-    "build:done": (ctx) => {
+    'build:done': (ctx) => {
       const files = readdirSync(ctx.options.outDir)
-      console.log(files)
-      files.forEach(f => {
+      files.forEach((f) => {
         const from = resolve(ctx.options.outDir, f)
         renameSync(from, from.replace(/.cjs$/, '.js'))
 
@@ -36,8 +35,8 @@ export default defineBuildConfig({
         const to = resolve(obPluginDirectory, f)
         copyFileSync(from, to)
       })
-    }
-  }
+    },
+  },
 })
 
 // D:\ob\.obsidian\plugins\obsidian-plugin-proxy
