@@ -7,7 +7,7 @@ It's a proxy tool to help you visit plugin-market faster.
 
 ## Startup
 
-1. download plugin files `dist.zip` here.
+1. download plugin files `obsidian-plugin-proxy.zip` here.
   - [Gitee](https://gitee.com/114000/obsidian-plugin-proxy/releases)
   - [Github](https://github.com/binyu1231/obsidian-plugin-proxy/releases)
 2. unzip `dist.zip` to yourProject/.obsidian/plugins
