@@ -10,7 +10,7 @@ It's a proxy tool to help you visit plugin-market faster.
 1. download plugin files `obsidian-plugin-proxy.zip` here.
   - [Gitee](https://gitee.com/114000/obsidian-plugin-proxy/releases)
   - [Github](https://github.com/binyu1231/obsidian-plugin-proxy/releases)
-2. unzip `dist.zip` to yourProject/.obsidian/plugins
+2. unzip `obsidian-plugin-proxy.zip` to yourProject/.obsidian/plugins
 
 ## Custom Proxy
 
